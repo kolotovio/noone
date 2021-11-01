@@ -1,0 +1,2 @@
+{{-- <button id="like_button_{{ $attributes['id'] }}" onclick="incrementLike({{ $attributes['id'] }})">Likes: <span>{{ $attributes['likes'] }}</span></button> --}}
+<div id="views_counter_{{ $attributes['id'] }}" class=" mr-10">Views: <span>{{ $attributes['views'] }}</span></div>
