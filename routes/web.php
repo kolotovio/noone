@@ -18,3 +18,4 @@ Route::get('/', function () {
 })->name('home');
 Route::get('/articles', 'App\Http\Controllers\ArticleController@index')->name('articles');
 Route::get('/articles/{slug}', 'App\Http\Controllers\ArticleController@show')->name('articles.page');
+Route::get('/tags/{tag}', 'App\Http\Controllers\ArticleController@showByTag')->name('articles.tag');
